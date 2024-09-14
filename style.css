@@ -1,0 +1,175 @@
+.container{
+    width: 80%;
+    margin: 30px auto;
+    
+    padding:50px 50px 50px 50px;
+    background-color: #f0eaea;
+    border: 1px solid black;
+    color: black;
+    box-shadow: 5px 5px rgba(199, 207, 224, 0.6);
+}
+
+.select{
+    width: 100%;
+    font-size: 30px;
+    color: black;
+}
+
+.wards{
+    width: 100%;
+    word-spacing: 10px;
+    margin: auto;
+    
+    }
+
+.icu{
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #04AA6D;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+    
+
+.icu:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.icu:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.special{
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #04AA6D;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}    
+.special:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.special:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.general{
+    background-color: white;
+    color: black;
+
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #04AA6D;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+    
+}    
+.general:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.general:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .last_booking{
+    margin-top: 20px;
+  }
+
+  .book{
+    background-color: red ;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #c91114;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+ .book:active {
+    background-color: coral;
+    transform: translateY(4px);
+  }
+
+  .last{
+    width: 100%;
+    display: flex;
+    
+    }
+    .last_booking_container{
+        margin-right: 500px;
+    }
+
+.btn-group button{
+    background-color: #04AA6D; 
+  border: 1px solid green; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+}
+
+.btn-group button:active {
+    
+    transform: translateY(4px);
+  }
+
+.SS{
+    margin-top: 60px;
+  }
+
+.SS h3{
+    width: 100%;
+    font-size: 30px;
+    color: black;
+}  
+
+.last_booking_container{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+.last_booking_details{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.slot,.WARD{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.slot span, .movie span{
+    font-weight: 400;
+    font-size: 16px;
+}
